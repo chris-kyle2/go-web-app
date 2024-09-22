@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: go-web-app
-          image: 22monk/newrepo:{{ .Values.image.tag }}
+          image: 22monk/newrepo:{{ .values.image.tag }}
           ports:
             - containerPort: 8080
 
