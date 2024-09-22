@@ -8,7 +8,7 @@ image:
   repository: 22monk/newrepo
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "10984166267"
+  tag: "10984212899"
 
 ingress:
   enabled: false
